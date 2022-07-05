@@ -20,6 +20,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half_width {
@@ -31,7 +32,7 @@ section {
     width: 75%;
 }
 
-.header_button {
+.link_button {
     background-image: linear-gradient(orange, tomato);
     color: #ffffff;
     text-decoration: none;
@@ -39,4 +40,10 @@ section {
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 5px;
+}
+
+.dream_big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
